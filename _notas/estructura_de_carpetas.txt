@@ -1,3 +1,3 @@
 ta estructura consta de una serie de carpetas y archivos que nos hacen trabajar de forma ordenada y eficiente. La estructura es la siguiente:
 
-Gemfile el archivo don
+Gemfile el archivo donde declaramos las dependencias (gemas de nuestr
