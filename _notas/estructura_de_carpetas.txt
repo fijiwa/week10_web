@@ -1,4 +1,5 @@
 ta estructura consta de una serie de carpetas y archivos que nos hacen trabajar de forma ordenada y eficiente. La estructura es la siguiente:
 
 Gemfile el archivo donde declaramos las dependencias (gemas de nuestro proyecto)
-app: organiza los componentes de nuestra aplic
+app: organiza los componentes de nuestra aplicaion
+app/assets: son los archivos requeridos por nuestr
