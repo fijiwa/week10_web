@@ -3,4 +3,4 @@ ta estructura consta de una serie de carpetas y archivos que nos hacen trabajar 
 Gemfile el archivo donde declaramos las dependencias (gemas de nuestro proyecto)
 app: organiza los componentes de nuestra aplicaion
 app/assets: son los archivos requeridos por nuestra aplicacion del lado del front-end, esto es, archivos de javascript, css o imagenes
-app/controllers: es donde se ubican los con
+app/controllers: es donde se ubican los controladores de Rails que son los responsables d
