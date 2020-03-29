@@ -4,4 +4,4 @@ Gemfile el archivo donde declaramos las dependencias (gemas de nuestro proyecto)
 app: organiza los componentes de nuestra aplicaion
 app/assets: son los archivos requeridos por nuestra aplicacion del lado del front-end, esto es, archivos de javascript, css o imagenes
 app/controllers: es donde se ubican los controladores de Rails que son los responsables de conectar las vistas con los modelos
-app/helpers: contiene clases y metodos que nos ayu
+app/helpers: contiene clases y metodos que nos ayudan a extraer logica reutilizable o complicad
