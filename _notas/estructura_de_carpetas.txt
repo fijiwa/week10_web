@@ -7,4 +7,4 @@ app/controllers: es donde se ubican los controladores de Rails que son los respo
 app/helpers: contiene clases y metodos que nos ayudan a extraer logica reutilizable o complicada en la logica
 app/mailers: es donde se ubican los objetos encargados de tareas de envio de emails
 
-app/models: contiene las clases que contienen la logica de nuestra aplicacion y sonla s
+app/models: contiene las clases que contienen la logica de nuestra aplicacion y sonla sencargadas de conectarse a la base de d
