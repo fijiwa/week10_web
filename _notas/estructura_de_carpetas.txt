@@ -9,4 +9,5 @@ app/mailers: es donde se ubican los objetos encargados de tareas de envio de ema
 
 app/models: contiene las clases que contienen la logica de nuestra aplicacion y sonla sencargadas de conectarse a la base de datos
 config: los archivos de configuracion
-config/database.yml: contiene toda la info necesaria para la configuracion y coneccion a la 
+config/database.yml: contiene toda la info necesaria para la configuracion y coneccion a la base de datos
+config/environments/: rails ma
