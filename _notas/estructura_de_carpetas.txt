@@ -12,4 +12,4 @@ config: los archivos de configuracion
 config/database.yml: contiene toda la info necesaria para la configuracion y coneccion a la base de datos
 config/environments/: rails maneja tres entornos de trabajo: desarollo (development), pruebas (test) y produccion (production). Rails es bastante inteligente para ofrecernos valores por default adecuados a cada entorno, pero podemos configurarlos segun nuestras necesidades
 
-config/routes.rb: es el archivo donde vienes
+config/routes.rb: es el archivo donde vienes las indicaciones de como mapear las rutas de 
