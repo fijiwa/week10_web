@@ -15,4 +15,5 @@ config/environments/: rails maneja tres entornos de trabajo: desarollo (developm
 config/routes.rb: es el archivo donde vienes las indicaciones de como mapear las rutas de nuestra aplicacion a los controladores de la misma
 
 db: contiene archivos relacionados a la base de datos
-db/migrate:  asi se encuentran las migraciones que vamos haciendo para nuestra aplicac
+db/migrate:  asi se encuentran las migraciones que vamos haciendo para nuestra aplicacion
+db/schema: la estructura actual de nuestra bas
