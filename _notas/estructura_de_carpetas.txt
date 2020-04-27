@@ -16,4 +16,6 @@ config/routes.rb: es el archivo donde vienes las indicaciones de como mapear las
 
 db: contiene archivos relacionados a la base de datos
 db/migrate:  asi se encuentran las migraciones que vamos haciendo para nuestra aplicacion
-db/schema: la estructura actual de nuestra bas
+db/schema: la estructura actual de nuestra base de datos
+
+log: bitacoras. El registro de eventos que
