@@ -18,4 +18,6 @@ db: contiene archivos relacionados a la base de datos
 db/migrate:  asi se encuentran las migraciones que vamos haciendo para nuestra aplicacion
 db/schema: la estructura actual de nuestra base de datos
 
-log: bitacoras. El registro de eventos que
+log: bitacoras. El registro de eventos que pasan en nuestra aplicacion
+
+public:  los archivos
