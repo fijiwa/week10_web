@@ -20,4 +20,5 @@ db/schema: la estructura actual de nuestra base de datos
 
 log: bitacoras. El registro de eventos que pasan en nuestra aplicacion
 
-public:  los archivos
+public:  los archivos publicos como paginas estaticas
+
