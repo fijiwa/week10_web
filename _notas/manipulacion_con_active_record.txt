@@ -1,1 +1,7 @@
-# Iniciar
+# Iniciar la consola de Rails
+
+rails console
+
+o
+
+ra
