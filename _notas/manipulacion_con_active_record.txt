@@ -4,4 +4,6 @@ rails console
 
 o
 
-ra
+rails c
+
+# Si tenemos un modelo Track con los a
