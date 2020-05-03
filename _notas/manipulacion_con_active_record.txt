@@ -6,4 +6,4 @@ o
 
 rails c
 
-# Si tenemos un modelo Track con los a
+# Si tenemos un modelo Track con los atributos title, album y artist, podem
