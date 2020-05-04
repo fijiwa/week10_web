@@ -6,4 +6,6 @@ o
 
 rails c
 
-# Si tenemos un modelo Track con los atributos title, album y artist, podemos realizar varias operaciones 
+# Si tenemos un modelo Track con los atributos title, album y artist, podemos realizar varias operaciones sobre ellos:
+
+# Saber la cantidad de
