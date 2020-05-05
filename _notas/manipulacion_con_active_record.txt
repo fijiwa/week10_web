@@ -8,4 +8,7 @@ rails c
 
 # Si tenemos un modelo Track con los atributos title, album y artist, podemos realizar varias operaciones sobre ellos:
 
-# Saber la cantidad de
+# Saber la cantidad de registros que tenemos
+Track.count
+
+# Obtener el primer eleme
