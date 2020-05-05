@@ -11,4 +11,8 @@ rails c
 # Saber la cantidad de registros que tenemos
 Track.count
 
-# Obtener el primer eleme
+# Obtener el primer elemento
+cancion = Track.first
+
+
+# Acceder a sus atributos usan
