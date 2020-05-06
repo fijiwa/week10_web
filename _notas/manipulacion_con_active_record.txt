@@ -15,4 +15,6 @@ Track.count
 cancion = Track.first
 
 
-# Acceder a sus atributos usan
+# Acceder a sus atributos usando el nombre de los mismos
+cancion.title
+ca
