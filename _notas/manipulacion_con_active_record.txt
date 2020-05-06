@@ -17,4 +17,7 @@ cancion = Track.first
 
 # Acceder a sus atributos usando el nombre de los mismos
 cancion.title
-ca
+cancion.album
+cancion.artist
+
+# Podemos editar los v
