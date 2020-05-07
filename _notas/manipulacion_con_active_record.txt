@@ -20,4 +20,6 @@ cancion.title
 cancion.album
 cancion.artist
 
-# Podemos editar los v
+# Podemos editar los valores usando los setters del objeto
+
+cancion.al
