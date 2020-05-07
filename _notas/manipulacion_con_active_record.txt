@@ -22,4 +22,6 @@ cancion.artist
 
 # Podemos editar los valores usando los setters del objeto
 
-cancion.al
+cancion.album = 'News of the World'
+
+# Para guardar los ca
