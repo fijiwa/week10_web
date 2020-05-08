@@ -28,4 +28,5 @@ cancion.album = 'News of the World'
 
 cancion.save
 
-# Crear y
+# Crear y guardar en la base de datos una nueva canción
+
