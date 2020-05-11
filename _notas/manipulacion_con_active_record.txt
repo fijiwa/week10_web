@@ -30,3 +30,4 @@ cancion.save
 
 # Crear y guardar en la base de datos una nueva canción
 
+Track.create title: 'Whole Lotta love',
