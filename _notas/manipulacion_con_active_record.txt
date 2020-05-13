@@ -35,3 +35,7 @@ Track.create title: 'Whole Lotta love', artist: 'Led Zeppelin', album: 'Led Zepp
 # Obtener el último registro
 
 Track.last
+
+# Buscar elementos por su id
+
+Track.fin
