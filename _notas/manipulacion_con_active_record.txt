@@ -40,4 +40,4 @@ Track.last
 
 Track.find 3
 
-# También podemos crear nuevos registro
+# También podemos crear nuevos registros con .new y, usando los setters del objeto, establecer sus val
