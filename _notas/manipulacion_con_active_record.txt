@@ -38,4 +38,6 @@ Track.last
 
 # Buscar elementos por su id
 
-Track.fin
+Track.find 3
+
+# También podemos crear nuevos registro
