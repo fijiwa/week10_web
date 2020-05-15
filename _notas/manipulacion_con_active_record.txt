@@ -43,4 +43,5 @@ Track.find 3
 # También podemos crear nuevos registros con .new y, usando los setters del objeto, establecer sus valores
 
 nueva_cancion = Track.new
-nueva_cancion.ti
+nueva_cancion.title = 'Heartbreaker'
+nueva_cancion.album = 'Led
