@@ -44,4 +44,6 @@ Track.find 3
 
 nueva_cancion = Track.new
 nueva_cancion.title = 'Heartbreaker'
-nueva_cancion.album = 'Led
+nueva_cancion.album = 'Led Zeppelin II'
+nueva_cancion.artist = 'Led Zeppelin'
+
