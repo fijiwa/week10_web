@@ -47,4 +47,8 @@ nueva_cancion.title = 'Heartbreaker'
 nueva_cancion.album = 'Led Zeppelin II'
 nueva_cancion.artist = 'Led Zeppelin'
 
-# No olvidemos guarda en la base de da
+# No olvidemos guarda en la base de datos
+
+nueva_cancion.save
+
+# Podemos crear u
