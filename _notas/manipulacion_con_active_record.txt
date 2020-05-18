@@ -51,4 +51,4 @@ nueva_cancion.artist = 'Led Zeppelin'
 
 nueva_cancion.save
 
-# Podemos crear u
+# Podemos crear una nueva canción pasándole un hash con lo
