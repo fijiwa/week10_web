@@ -51,4 +51,6 @@ nueva_cancion.artist = 'Led Zeppelin'
 
 nueva_cancion.save
 
-# Podemos crear una nueva canción pasándole un hash con lo
+# Podemos crear una nueva canción pasándole un hash con los atributos que queremos
+
+informacion = { title: 'Blac
