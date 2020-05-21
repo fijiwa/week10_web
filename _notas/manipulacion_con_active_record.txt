@@ -53,4 +53,4 @@ nueva_cancion.save
 
 # Podemos crear una nueva canción pasándole un hash con los atributos que queremos
 
-informacion = { title: 'Blac
+informacion = { title: 'Black dog', artist: 'Led Zeppelin', album: 'Led Z
