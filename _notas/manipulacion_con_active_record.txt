@@ -58,4 +58,4 @@ nueva_cancion = Track.new informacion
 nueva_cancion.save
 
 
-# Podemos busc
+# Podemos buscar todos los registros que cumplen con c
