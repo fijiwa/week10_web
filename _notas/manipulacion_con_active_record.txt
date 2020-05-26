@@ -60,4 +60,6 @@ nueva_cancion.save
 
 # Podemos buscar todos los registros que cumplen con cierta condicion
 
-canciones = Track.where(artist: 'Led
+canciones = Track.where(artist: 'Led Zeppelin')
+
+# Esto nos regresa un
