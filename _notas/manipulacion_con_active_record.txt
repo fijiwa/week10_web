@@ -63,4 +63,4 @@ nueva_cancion.save
 canciones = Track.where(artist: 'Led Zeppelin')
 
 # Esto nos regresa una relacion de ActiveRecord
-# Esta relacion soporta muc
+# Esta relacion soporta muchas operaciones que soportan los arreg
