@@ -66,4 +66,7 @@ canciones = Track.where(artist: 'Led Zeppelin')
 # Esta relacion soporta muchas operaciones que soportan los arreglos
 
 # Saber cuántos elementos hay
-canci
+canciones.size
+
+# Extraer el primero y el último
+canciones
