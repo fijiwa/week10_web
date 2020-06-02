@@ -69,4 +69,7 @@ canciones = Track.where(artist: 'Led Zeppelin')
 canciones.size
 
 # Extraer el primero y el último
-canciones
+canciones.first
+canciones.last
+
+# Acceder a sus elementos por s
