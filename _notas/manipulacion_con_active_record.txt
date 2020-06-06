@@ -72,4 +72,7 @@ canciones.size
 canciones.first
 canciones.last
 
-# Acceder a sus elementos por s
+# Acceder a sus elementos por su posición
+canciones[0]
+
+# Si queremos encontar solo el 
