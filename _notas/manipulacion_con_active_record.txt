@@ -75,4 +75,5 @@ canciones.last
 # Acceder a sus elementos por su posición
 canciones[0]
 
-# Si queremos encontar solo el 
+# Si queremos encontar solo el primer registro que cumple con las
+# co
