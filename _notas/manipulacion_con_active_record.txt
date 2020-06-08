@@ -76,4 +76,6 @@ canciones.last
 canciones[0]
 
 # Si queremos encontar solo el primer registro que cumple con las
-# co
+# condiciones, podemos usar find_by
+
+cancion = Track.fi
