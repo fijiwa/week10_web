@@ -78,4 +78,6 @@ canciones[0]
 # Si queremos encontar solo el primer registro que cumple con las
 # condiciones, podemos usar find_by
 
-cancion = Track.fi
+cancion = Track.find_by(artist: 'Led Zeppelin')
+
+# wher
