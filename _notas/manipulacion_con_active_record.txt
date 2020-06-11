@@ -82,4 +82,6 @@ cancion = Track.find_by(artist: 'Led Zeppelin')
 
 # where nos trae una relación, find_by nos trae un único elemento
 # si where no encuentra coincidencias, regresa un []
-# si find_by no en
+# si find_by no encuentra coincidencias, regresa un nil
+
+# Podemos ac
