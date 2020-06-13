@@ -84,4 +84,8 @@ cancion = Track.find_by(artist: 'Led Zeppelin')
 # si where no encuentra coincidencias, regresa un []
 # si find_by no encuentra coincidencias, regresa un nil
 
-# Podemos actualizar los valores con el metodo update que esper
+# Podemos actualizar los valores con el metodo update que espera un hash
+
+cancion = Track.first
+
+valores
