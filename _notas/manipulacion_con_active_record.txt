@@ -89,4 +89,6 @@ cancion = Track.find_by(artist: 'Led Zeppelin')
 cancion = Track.first
 
 valores = { title: 'A new song'}
-cancion.update valo
+cancion.update valores
+
+# Update regresa true o false depend
