@@ -91,4 +91,6 @@ cancion = Track.first
 valores = { title: 'A new song'}
 cancion.update valores
 
-# Update regresa true o false depend
+# Update regresa true o false dependiendo de si se pudo actualizar
+
+# Por ultimo, po
