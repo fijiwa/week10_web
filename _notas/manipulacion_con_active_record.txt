@@ -93,4 +93,6 @@ cancion.update valores
 
 # Update regresa true o false dependiendo de si se pudo actualizar
 
-# Por ultimo, podemos borrar un elemento de la base de datos c
+# Por ultimo, podemos borrar un elemento de la base de datos con destroy
+
+cancion.destroy
