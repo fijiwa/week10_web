@@ -5,4 +5,8 @@ class TracksController < ApplicationController
   # GET /tracks
   # GET /tracks.json
   def index
- 
+    @tracks = Track.all
+  end
+
+  # GET /tracks/1
+  #
