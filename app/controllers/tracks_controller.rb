@@ -13,4 +13,9 @@ class TracksController < ApplicationController
   def show
   end
 
-  # GET /tr
+  # GET /tracks/new
+  def new
+    @track = Track.new
+  end
+
+ 
