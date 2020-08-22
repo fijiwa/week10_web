@@ -22,4 +22,7 @@ class TracksController < ApplicationController
   def edit
   end
 
-  # POST /trac
+  # POST /tracks
+  # POST /tracks.json
+  def create
+ 
