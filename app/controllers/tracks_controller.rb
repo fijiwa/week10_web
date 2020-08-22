@@ -18,4 +18,8 @@ class TracksController < ApplicationController
     @track = Track.new
   end
 
- 
+  # GET /tracks/1/edit
+  def edit
+  end
+
+  # POST /trac
