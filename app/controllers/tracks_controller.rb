@@ -30,4 +30,4 @@ class TracksController < ApplicationController
     respond_to do |format|
       if @track.save
         format.html { redirect_to @track, notice: 'Track was successfully created.' }
-        f
+        format.json { render :show, status: :created, location: @tr
