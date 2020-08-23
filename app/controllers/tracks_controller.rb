@@ -29,4 +29,5 @@ class TracksController < ApplicationController
 
     respond_to do |format|
       if @track.save
-        format.html { redirect_to @track, notice: 'Trac
+        format.html { redirect_to @track, notice: 'Track was successfully created.' }
+        f
