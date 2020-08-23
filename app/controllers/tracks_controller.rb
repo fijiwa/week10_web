@@ -29,4 +29,4 @@ class TracksController < ApplicationController
 
     respond_to do |format|
       if @track.save
-        format
+        format.html { redirect_to @track, notice: 'Trac
