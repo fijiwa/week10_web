@@ -27,4 +27,6 @@ class TracksController < ApplicationController
   def create
     @track = Track.new(track_params)
 
-    respond_to do
+    respond_to do |format|
+      if @track.save
+        format
