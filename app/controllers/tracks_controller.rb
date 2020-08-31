@@ -42,4 +42,5 @@ class TracksController < ApplicationController
   # PATCH/PUT /tracks/1.json
   def update
     respond_to do |format|
-      if @trac
+      if @track.update(track_params)
+        format.html { redirec
