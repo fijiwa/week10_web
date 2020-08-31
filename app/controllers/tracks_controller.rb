@@ -38,4 +38,7 @@ class TracksController < ApplicationController
     end
   end
 
-  # PATCH/PUT /trac
+  # PATCH/PUT /tracks/1
+  # PATCH/PUT /tracks/1.json
+  def update
+    re
