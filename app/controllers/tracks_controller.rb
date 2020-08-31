@@ -41,4 +41,5 @@ class TracksController < ApplicationController
   # PATCH/PUT /tracks/1
   # PATCH/PUT /tracks/1.json
   def update
-    re
+    respond_to do |format|
+      if @trac
