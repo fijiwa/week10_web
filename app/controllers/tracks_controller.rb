@@ -43,4 +43,5 @@ class TracksController < ApplicationController
   def update
     respond_to do |format|
       if @track.update(track_params)
-        format.html { redirect_to @track, notice: 'Track was successful
+        format.html { redirect_to @track, notice: 'Track was successfully updated.' }
+        format.json { rende
