@@ -50,4 +50,7 @@ class TracksController < ApplicationController
         format.json { render json: @track.errors, status: :unprocessable_entity }
       end
     end
-  e
+  end
+
+  # DELETE /tracks/1
+  # DELETE /track
