@@ -53,4 +53,6 @@ class TracksController < ApplicationController
   end
 
   # DELETE /tracks/1
-  # DELETE /track
+  # DELETE /tracks/1.json
+  def destroy
+    @track.dest
