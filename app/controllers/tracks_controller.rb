@@ -47,4 +47,4 @@ class TracksController < ApplicationController
         format.json { render :show, status: :ok, location: @track }
       else
         format.html { render :edit }
-        format.j
+        format.json { render json: @track.errors, status: :un
