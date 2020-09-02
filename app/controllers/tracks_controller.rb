@@ -46,4 +46,5 @@ class TracksController < ApplicationController
         format.html { redirect_to @track, notice: 'Track was successfully updated.' }
         format.json { render :show, status: :ok, location: @track }
       else
-   
+        format.html { render :edit }
+        format.j
