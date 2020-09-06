@@ -55,4 +55,6 @@ class TracksController < ApplicationController
   # DELETE /tracks/1
   # DELETE /tracks/1.json
   def destroy
-    @track.dest
+    @track.destroy
+    respond_to do |format|
+      format.html { r
