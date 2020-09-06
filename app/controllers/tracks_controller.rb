@@ -57,4 +57,4 @@ class TracksController < ApplicationController
   def destroy
     @track.destroy
     respond_to do |format|
-      format.html { r
+      format.html { redirect_to tracks_url, notice: 'Track was successfu
