@@ -68,4 +68,5 @@ class TracksController < ApplicationController
       @track = Track.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def track_param
