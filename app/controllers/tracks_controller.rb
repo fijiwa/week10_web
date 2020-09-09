@@ -59,4 +59,8 @@ class TracksController < ApplicationController
     respond_to do |format|
       format.html { redirect_to tracks_url, notice: 'Track was successfully destroyed.' }
       format.json { head :no_content }
- 
+    end
+  end
+
+  private
+    # Use 
