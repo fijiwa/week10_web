@@ -69,4 +69,5 @@ class TracksController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def track_param
+    def track_params
+      params.require(:track).permit(:t
