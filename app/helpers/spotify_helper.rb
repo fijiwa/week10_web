@@ -1,1 +1,2 @@
-module Spot
+module SpotifyHelper
+end
