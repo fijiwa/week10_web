@@ -1,2 +1,3 @@
 class User < ActiveRecord::Base
-  # Include default devise module
+  # Include default devise modules. Others available are:
+  # :confirmable,
