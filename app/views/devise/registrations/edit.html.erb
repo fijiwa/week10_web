@@ -8,4 +8,5 @@
     <%= f.email_field :email, autofocus: true %>
   </div>
 
-  <% if devise_mapping.confirmable? && res
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Cur
