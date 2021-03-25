@@ -11,4 +11,5 @@
   <div class="field">
     <%= f.label :password %>
     <% if @validatable %>
-    <em>(<%= @minimum_password
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
