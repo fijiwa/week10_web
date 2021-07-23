@@ -31,3 +31,5 @@
 <%= link_to 'New Track', new_track_path %>
 
 <%= form_tag(spotify_search_path, method: :get) do  %>
+        <%= text_field_tag :title %>
+        <%= subm
