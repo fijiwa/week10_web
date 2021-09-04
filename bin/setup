@@ -2,4 +2,4 @@
 require 'pathname'
 
 # path to your application root.
-APP_ROOT = Path
+APP_ROOT = Pathname.new File.expand_path('../../',  __
