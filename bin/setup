@@ -2,4 +2,7 @@
 require 'pathname'
 
 # path to your application root.
-APP_ROOT = Pathname.new File.expand_path('../../',  __
+APP_ROOT = Pathname.new File.expand_path('../../',  __FILE__)
+
+Dir.chdir APP_ROOT do
+  # This script is a starti
