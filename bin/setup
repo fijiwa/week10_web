@@ -5,4 +5,5 @@ require 'pathname'
 APP_ROOT = Pathname.new File.expand_path('../../',  __FILE__)
 
 Dir.chdir APP_ROOT do
-  # This script is a starti
+  # This script is a starting point to setup your application.
+  # Add necessary s
