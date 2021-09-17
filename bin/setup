@@ -10,4 +10,6 @@ Dir.chdir APP_ROOT do
 
   puts "== Installing dependencies =="
   system "gem install bundler --conservative"
-  system 
+  system "bundle check || bundle install"
+
+  # puts "\n== C
