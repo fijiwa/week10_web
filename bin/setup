@@ -12,4 +12,5 @@ Dir.chdir APP_ROOT do
   system "gem install bundler --conservative"
   system "bundle check || bundle install"
 
-  # puts "\n== C
+  # puts "\n== Copying sample files =="
+  # unless Fil
