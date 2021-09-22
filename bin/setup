@@ -13,4 +13,5 @@ Dir.chdir APP_ROOT do
   system "bundle check || bundle install"
 
   # puts "\n== Copying sample files =="
-  # unless Fil
+  # unless File.exist?("config/database.yml")
+  #   system "cp 
