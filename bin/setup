@@ -14,4 +14,4 @@ Dir.chdir APP_ROOT do
 
   # puts "\n== Copying sample files =="
   # unless File.exist?("config/database.yml")
-  #   system "cp 
+  #   system "cp config/database.yml.sample config/database.yml"
