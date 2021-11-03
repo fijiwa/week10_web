@@ -7,4 +7,5 @@ unless defined?(Spring)
   require 'rubygems'
   require 'bundler'
 
-  if (match = Bundler.default_lockfile.rea
+  if (match = Bundler.default_lockfile.read.match(/^GEM$.*?^    (?:  )*spring \((.*?)\)$.*?^$/m))
+ 
