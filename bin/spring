@@ -8,4 +8,4 @@ unless defined?(Spring)
   require 'bundler'
 
   if (match = Bundler.default_lockfile.read.match(/^GEM$.*?^    (?:  )*spring \((.*?)\)$.*?^$/m))
- 
+    Gem.paths = { 'GEM_PATH' =
