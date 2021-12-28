@@ -1,2 +1,4 @@
 # SQLite version 3.x
-#   gem insta
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is de
