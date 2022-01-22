@@ -13,4 +13,5 @@ development:
   <<: *default
   database: db/development.sqlite3
 
-# Warning: The database defined as "test" will be erase
+# Warning: The database defined as "test" will be erased and
+# re-generated from your developmen
