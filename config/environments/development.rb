@@ -1,2 +1,2 @@
 Rails.application.configure do
-  # Se
+  # Settings specified here will take precedence ov
