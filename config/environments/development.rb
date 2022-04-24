@@ -22,4 +22,5 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
-  # Deb
+  # Debug mode disables concatenation and preprocessing of assets.
+  
