@@ -26,4 +26,6 @@ Rails.application.configure do
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
-  # config.assets
+  # config.assets.css_compressor = :sass
+
+  # Do not fallba
