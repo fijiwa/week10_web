@@ -55,4 +55,6 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use a different cache store in production.
-  # c
+  # config.cache_store = :mem_cache_store
+
+  # Enable serving
