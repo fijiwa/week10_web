@@ -61,4 +61,4 @@ Rails.application.configure do
   # config.action_controller.asset_host = 'http://assets.example.com'
 
   # Ignore bad email addresses and do not raise email delivery errors.
-  # Set th
+  # Set this to true and configure the email server fo
