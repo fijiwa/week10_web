@@ -63,3 +63,44 @@ Devise.setup do |config|
   # enable it only for database authentication. The supported strategies are:
   # :database      = Support basic authentication with authentication key + password
   # config.http_authenticatable = false
+
+  # If 401 status code should be returned for AJAX requests. True by default.
+  # config.http_authenticatable_on_xhr = true
+
+  # The realm used in Http Basic Authentication. 'Application' by default.
+  # config.http_authentication_realm = 'Application'
+
+  # It will change confirmation, password recovery and other workflows
+  # to behave the same regardless if the e-mail provided was right or wrong.
+  # Does not affect registerable.
+  # config.paranoid = true
+
+  # By default Devise will store the user in session. You can skip storage for
+  # particular strategies by setting this option.
+  # Notice that if you are skipping storage for all authentication paths, you
+  # may want to disable generating routes to Devise's sessions controller by
+  # passing skip: :sessions to `devise_for` in your config/routes.rb
+  config.skip_session_storage = [:http_auth]
+
+  # By default, Devise cleans up the CSRF token on authentication to
+  # avoid CSRF token fixation attacks. This means that, when using AJAX
+  # requests for sign in and sign up, you need to get a new CSRF token
+  # from the server. You can disable this option at your own risk.
+  # config.clean_up_csrf_token_on_authentication = true
+
+  # ==> Configuration for :database_authenticatable
+  # For bcrypt, this is the cost for hashing the password and defaults to 10. If
+  # using other encryptors, it sets how many times you want the password re-encrypted.
+  #
+  # Limiting the stretches to just one in testing will increase the performance of
+  # your test suite dramatically. However, it is STRONGLY RECOMMENDED to not use
+  # a value less than 10 in other environments. Note that, for bcrypt (the default
+  # encryptor), the cost increases exponentially with the number of stretches (e.g.
+  # a value of 20 is already extremely slow: approx. 60 seconds for 1 calculation).
+  config.stretches = Rails.env.test? ? 1 : 10
+
+  # Setup a pepper to generate the encrypted password.
+  # config.pepper = '3738618cb75ac95eddd1f57c1f245535cd10f8d0955420685875972881e134850a64eb8d7867167462c1e6b6051e46c418dc0ac115a68268e44b31696c5df5a2'
+
+  # Send a notification email when the user's password is changed
+  # config.send_password_change_notification = false
