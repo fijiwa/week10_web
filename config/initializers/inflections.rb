@@ -11,4 +11,4 @@
 # end
 
 # These inflection rules are supported but not enabled by default:
-# ActiveSu
+# ActiveSupport::Inflector.inflections(:en) do |inflect|
