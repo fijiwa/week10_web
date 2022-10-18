@@ -3,4 +3,4 @@
 en:
   devise:
     confirmations:
-      confirmed
+      confirmed: "Your email address has been successfully confirmed."
