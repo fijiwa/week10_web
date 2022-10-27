@@ -10,4 +10,5 @@ en:
       already_authenticated: "You are already signed in."
       inactive: "Your account is not activated yet."
       invalid: "Invalid %{authentication_keys} or password."
-      locked: "You
+      locked: "Your account is locked."
+      last_attempt: "Y
