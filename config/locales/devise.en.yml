@@ -11,4 +11,4 @@ en:
       inactive: "Your account is not activated yet."
       invalid: "Invalid %{authentication_keys} or password."
       locked: "Your account is locked."
-      last_attempt: "Y
+      last_attempt: "You have one more attempt before your account 
