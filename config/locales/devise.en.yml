@@ -19,4 +19,5 @@ en:
     mailer:
       confirmation_instructions:
         subject: "Confirmation instructions"
-      reset_passwo
+      reset_password_instructions:
+        subject: "Res
