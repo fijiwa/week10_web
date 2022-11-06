@@ -24,4 +24,6 @@ en:
       unlock_instructions:
         subject: "Unlock instructions"
       password_change:
-        subject: "Password Chang
+        subject: "Password Changed"
+    omniauth_callbacks:
+      failure: "Could not auth
