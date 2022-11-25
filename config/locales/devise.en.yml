@@ -37,4 +37,4 @@ en:
     registrations:
       destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
       signed_up: "Welcome! You have signed up successfully."
-      s
+      signed_up_but_inactive: "You have signed up succe
