@@ -1,1 +1,2 @@
-Ra
+Rails.application.routes.draw do
+ 
