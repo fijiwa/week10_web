@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :playlists
 
 
-  roo
+  root to: 'tracks#index'
+end
