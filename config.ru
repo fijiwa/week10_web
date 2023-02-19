@@ -1,3 +1,3 @@
 # This file is used by Rack-based servers to start the application.
 
-req
+require ::File.expand_path('../config/environment'
