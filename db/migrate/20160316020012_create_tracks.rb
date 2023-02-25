@@ -5,4 +5,7 @@ class CreateTracks < ActiveRecord::Migration
       t.string :album
       t.string :artist
 
-      t.times
+      t.timestamps null: false
+    end
+  end
+end
