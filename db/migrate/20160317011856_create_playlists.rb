@@ -1,1 +1,2 @@
-class C
+class CreatePlaylists < ActiveRecord::Migration
+  d
