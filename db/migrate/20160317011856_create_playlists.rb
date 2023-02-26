@@ -1,2 +1,4 @@
 class CreatePlaylists < ActiveRecord::Migration
-  d
+  def change
+    create_table :playlists do |t|
+      t.st
