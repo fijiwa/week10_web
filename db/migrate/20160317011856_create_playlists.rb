@@ -1,4 +1,6 @@
 class CreatePlaylists < ActiveRecord::Migration
   def change
     create_table :playlists do |t|
-      t.st
+      t.string :name
+      t.integer :number_of_votes
+  
