@@ -1,3 +1,3 @@
 require 'test_helper'
 
-class PlaylistsC
+class PlaylistsControllerTest < ActionController::Tes
