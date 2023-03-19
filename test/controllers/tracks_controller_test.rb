@@ -1,3 +1,3 @@
 require 'test_helper'
 
-cl
+class TracksControllerTest < ActionController::Te
