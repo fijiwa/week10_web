@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class S
+class SpotifyControllerTest < ActionController::TestCase
+  test "
