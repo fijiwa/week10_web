@@ -1,3 +1,5 @@
 require 'test_helper'
 
-class TracksControllerTest < ActionController::Te
+class TracksControllerTest < ActionController::TestCase
+  setup do
+    @track = tracks(:o
