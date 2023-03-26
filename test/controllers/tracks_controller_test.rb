@@ -2,4 +2,8 @@ require 'test_helper'
 
 class TracksControllerTest < ActionController::TestCase
   setup do
-    @track = tracks(:o
+    @track = tracks(:one)
+  end
+
+  test "should get index" do
+    get :index
