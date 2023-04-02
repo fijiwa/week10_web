@@ -8,4 +8,7 @@ class TracksControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:
+    assert_not_nil assigns(:tracks)
+  end
+
+  test "should get new"
