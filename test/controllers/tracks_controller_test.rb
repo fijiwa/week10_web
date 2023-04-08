@@ -21,4 +21,5 @@ class TracksControllerTest < ActionController::TestCase
       post :create, track: { album: @track.album, artist: @track.artist, title: @track.title }
     end
 
-   
+    assert_redirected_to track_path(assigns(:track))
+  
