@@ -18,4 +18,7 @@ class TracksControllerTest < ActionController::TestCase
 
   test "should create track" do
     assert_difference('Track.count') do
-      post :create, track: { album: @track.album, artist: @track.arti
+      post :create, track: { album: @track.album, artist: @track.artist, title: @track.title }
+    end
+
+   
