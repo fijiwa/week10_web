@@ -17,4 +17,5 @@ class TracksControllerTest < ActionController::TestCase
   end
 
   test "should create track" do
-    assert_
+    assert_difference('Track.count') do
+      post :create, trac
