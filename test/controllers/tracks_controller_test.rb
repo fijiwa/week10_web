@@ -22,4 +22,6 @@ class TracksControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to track_path(assigns(:track))
-  
+  end
+
+  test "should show track" 
