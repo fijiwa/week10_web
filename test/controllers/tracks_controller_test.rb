@@ -26,4 +26,7 @@ class TracksControllerTest < ActionController::TestCase
 
   test "should show track" do
     get :show, id: @track
-    assert_response
+    assert_response :success
+  end
+
+  test "should get edit" do
