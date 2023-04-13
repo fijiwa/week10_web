@@ -24,4 +24,6 @@ class TracksControllerTest < ActionController::TestCase
     assert_redirected_to track_path(assigns(:track))
   end
 
-  test "should show track" 
+  test "should show track" do
+    get :show, id: @track
+    assert_response
