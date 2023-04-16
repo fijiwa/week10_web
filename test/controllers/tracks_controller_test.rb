@@ -30,3 +30,5 @@ class TracksControllerTest < ActionController::TestCase
   end
 
   test "should get edit" do
+    get :edit, id: @track
+    assert_respo
