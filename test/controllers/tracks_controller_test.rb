@@ -31,4 +31,7 @@ class TracksControllerTest < ActionController::TestCase
 
   test "should get edit" do
     get :edit, id: @track
-    assert_respo
+    assert_response :success
+  end
+
+  test "should update track" do
