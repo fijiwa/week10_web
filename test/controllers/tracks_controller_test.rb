@@ -35,3 +35,4 @@ class TracksControllerTest < ActionController::TestCase
   end
 
   test "should update track" do
+    patch :update, id: @track, track: { album: @track.al
