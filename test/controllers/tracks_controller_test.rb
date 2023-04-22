@@ -35,4 +35,5 @@ class TracksControllerTest < ActionController::TestCase
   end
 
   test "should update track" do
-    patch :update, id: @track, track: { album: @track.album, artist: @track.artist, title: @track.title 
+    patch :update, id: @track, track: { album: @track.album, artist: @track.artist, title: @track.title }
+    assert_redirected_to track_path(assigns(:tra
