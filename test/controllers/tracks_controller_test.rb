@@ -40,4 +40,5 @@ class TracksControllerTest < ActionController::TestCase
   end
 
   test "should destroy track" do
-    assert_difference('Track.coun
+    assert_difference('Track.count', -1) do
+      delete :destroy, id: @tr
