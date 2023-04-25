@@ -39,4 +39,5 @@ class TracksControllerTest < ActionController::TestCase
     assert_redirected_to track_path(assigns(:track))
   end
 
-  test "should 
+  test "should destroy track" do
+    assert_difference('Track.coun
