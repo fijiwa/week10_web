@@ -44,4 +44,6 @@ class TracksControllerTest < ActionController::TestCase
       delete :destroy, id: @track
     end
 
-    assert_redirected_to tracks_pa
+    assert_redirected_to tracks_path
+  end
+end
