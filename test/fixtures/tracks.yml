@@ -3,3 +3,8 @@
 one:
   title: MyString
   album: MyString
+  artist: MyString
+
+two:
+  title: MyString
+  album
