@@ -7,4 +7,5 @@ one:
 
 two:
   title: MyString
-  album
+  album: MyString
+  artist: MyString
