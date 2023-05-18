@@ -1,3 +1,3 @@
 require 'test_helper'
 
-class 
+class TrackTest < ActiveSupport::TestCase
