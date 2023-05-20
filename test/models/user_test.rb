@@ -1,3 +1,4 @@
 require 'test_helper'
 
-class UserTe
+class UserTest < ActiveSupport::TestCase
+  # test "the truth" 
