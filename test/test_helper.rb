@@ -1,2 +1,2 @@
 ENV['RAILS_ENV'] ||= 'test'
-require File.e
+require File.expand_path('../../config/environment', _
